@@ -7,10 +7,10 @@
     <version>1.0.0</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>MybatisPlus常用功能配置</description>
-    <url>https://github.com/CodeDreamPlus/codedream-mybatis.git</url>
+    <url>https://github.com/CodeDreamPlus/mybatis.git</url>
     <developers>
         <developer>
-            <name>Shijianlong</name>
+            <name>YuFeng</name>
             <email>1447855920@qq.com</email>
             <organization>com.codedreamplus</organization>
             <organizationUrl>https://www.codedreamplus.com</organizationUrl>
@@ -18,9 +18,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/CodeDreamPlus/codedream-mybatis.git</connection>
-        <developerConnection>scm:git:ssh://github.com:CodeDreamPlus/codedream-mybatis.git</developerConnection>
-        <url>https://github.com/CodeDreamPlus/codedream-mybatis/tree/main</url>
+        <connection>scm:git:git://github.com/CodeDreamPlus/mybatis.git</connection>
+        <developerConnection>scm:git:ssh://github.com:CodeDreamPlus/mybatis.git</developerConnection>
+        <url>https://github.com/CodeDreamPlus/mybatis/tree/main</url>
     </scm>
 
     <properties>

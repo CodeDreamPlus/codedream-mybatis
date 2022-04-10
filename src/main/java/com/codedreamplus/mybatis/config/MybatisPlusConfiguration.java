@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * MybatisPlus配置类
  *
- * @author ShiJianlong
+ * @author YuFeng
  * @date 2022/3/16 23:36
  */
 @Configuration(proxyBeanMethods = false)

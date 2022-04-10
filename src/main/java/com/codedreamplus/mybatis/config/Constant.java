@@ -3,7 +3,7 @@ package com.codedreamplus.mybatis.config;
 /**
  * 基础配置
  *
- * @author ShiJianlong
+ * @author YuFeng
  * @date 2022/3/19 16:24
  */
 public class Constant {

@@ -14,7 +14,7 @@ import java.util.Date;
 /**
  * 基础实体类
  *
- * @author ShiJianlong
+ * @author YuFeng
  * @date 2022/3/19 16:17
  */
 @Data

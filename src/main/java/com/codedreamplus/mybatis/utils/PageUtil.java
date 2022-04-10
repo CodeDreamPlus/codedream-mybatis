@@ -26,7 +26,7 @@ import java.util.function.Function;
 /**
  * 分页工具类
  *
- * @author Shijianlong
+ * @author YuFeng
  */
 public class PageUtil {
 

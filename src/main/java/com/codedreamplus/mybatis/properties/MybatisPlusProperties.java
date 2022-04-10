@@ -8,10 +8,10 @@ import java.util.List;
 /**
  * 自定mybatis配置
  *
- * @author ShiJianlong
+ * @author YuFeng
  * @date 2022/3/16 20:59
  */
-@ConfigurationProperties(prefix = "codedream.mybatis-plus")
+@ConfigurationProperties(prefix = "codedreamplus.mybatis-plus")
 public class MybatisPlusProperties {
 
     /**
