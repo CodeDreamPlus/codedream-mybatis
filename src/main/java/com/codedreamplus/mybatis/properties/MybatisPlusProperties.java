@@ -1,4 +1,4 @@
-package com.codedream.mybatis.properties;
+package com.codedreamplus.mybatis.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

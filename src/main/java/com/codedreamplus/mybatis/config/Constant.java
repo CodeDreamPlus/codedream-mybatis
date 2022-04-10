@@ -1,4 +1,4 @@
-package com.codedream.mybatis.config;
+package com.codedreamplus.mybatis.config;
 
 /**
  * 基础配置

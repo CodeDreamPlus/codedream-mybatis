@@ -1,4 +1,4 @@
-package com.codedream.mybatis.config;
+package com.codedreamplus.mybatis.config;
 
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.handler.TenantLineHandler;
@@ -6,11 +6,11 @@ import com.baomidou.mybatisplus.extension.plugins.inner.BlockAttackInnerIntercep
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.TenantLineInnerInterceptor;
 import com.codedream.auto.properties.CodeDreamPropertySource;
-import com.codedream.mybatis.plugins.MybatisPlusAutoFill;
-import com.codedream.mybatis.plugins.SqlLogInterceptor;
-import com.codedream.mybatis.plugins.handler.UserHandler;
-import com.codedream.mybatis.properties.MybatisPlusProperties;
-import com.codedream.mybatis.resolver.PageArgumentResolver;
+import com.codedreamplus.mybatis.plugins.MybatisPlusAutoFill;
+import com.codedreamplus.mybatis.plugins.SqlLogInterceptor;
+import com.codedreamplus.mybatis.plugins.handler.UserHandler;
+import com.codedreamplus.mybatis.properties.MybatisPlusProperties;
+import com.codedreamplus.mybatis.resolver.PageArgumentResolver;
 import net.sf.jsqlparser.expression.Expression;
 import net.sf.jsqlparser.expression.StringValue;
 import org.mybatis.spring.annotation.MapperScan;
@@ -31,8 +31,8 @@ import java.util.List;
  */
 @Configuration(proxyBeanMethods = false)
 @EnableConfigurationProperties(MybatisPlusProperties.class)
-@MapperScan("com.codedream.**.mapper.**")
-@CodeDreamPropertySource(value = "classpath:/codedream-mybatis.yml")
+@MapperScan("com.codedreamplus.**.mapper.**")
+@CodeDreamPropertySource(value = "classpath:/codedreamplus-mybatis.yml")
 public class MybatisPlusConfiguration implements WebMvcConfigurer {
 
     /**

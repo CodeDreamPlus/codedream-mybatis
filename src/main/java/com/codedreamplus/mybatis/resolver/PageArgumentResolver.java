@@ -1,4 +1,4 @@
-package com.codedream.mybatis.resolver;
+package com.codedreamplus.mybatis.resolver;
 
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;

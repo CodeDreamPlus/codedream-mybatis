@@ -1,7 +1,7 @@
-package com.codedream.mybatis.base;
+package com.codedreamplus.mybatis.base;
 
 import com.baomidou.mybatisplus.annotation.*;
-import com.codedream.mybatis.config.Constant;
+import com.codedreamplus.mybatis.config.Constant;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
