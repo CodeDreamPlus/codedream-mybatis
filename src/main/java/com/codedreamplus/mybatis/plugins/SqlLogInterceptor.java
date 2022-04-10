@@ -1,4 +1,4 @@
-package com.codedream.mybatis.plugins;
+package com.codedreamplus.mybatis.plugins;
 
 import com.alibaba.druid.DbType;
 import com.alibaba.druid.filter.FilterChain;
@@ -7,7 +7,7 @@ import com.alibaba.druid.proxy.jdbc.JdbcParameter;
 import com.alibaba.druid.proxy.jdbc.ResultSetProxy;
 import com.alibaba.druid.proxy.jdbc.StatementProxy;
 import com.alibaba.druid.sql.SQLUtils;
-import com.codedream.mybatis.properties.MybatisPlusProperties;
+import com.codedreamplus.mybatis.properties.MybatisPlusProperties;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.ObjectUtils;
