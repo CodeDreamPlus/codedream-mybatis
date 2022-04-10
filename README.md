@@ -1,4 +1,4 @@
-# codedream-mybatis
+# codedreamplus-mybatis
 
 **MybatisPlus常用配置封装**
 
@@ -29,13 +29,13 @@
 
 #### 1.引入
 
-在项目的pom.xml引入codedream-base依赖，如下：
+在项目的pom.xml引入codedreamplus-mybatis依赖，如下：
 
 ```xml
 <dependency>
-    <groupId>com.codedream</groupId>
-    <artifactId>codedream-mybatis</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <groupId>com.codedreamplus</groupId>
+    <artifactId>codedreamplus-mybatis</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 
@@ -48,7 +48,7 @@
 
 ```java
 @Configuration
-public class CodeDreamConfig {
+public class CodeDreamPlusConfig {
     @Bean
     public UserHandler userHandler() {
         return new UserHandler() {
