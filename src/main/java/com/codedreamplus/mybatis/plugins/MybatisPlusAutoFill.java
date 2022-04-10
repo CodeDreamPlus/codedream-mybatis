@@ -30,7 +30,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Mybatis_plus 公共字段填充
  *
- * @author ShiJianlong
+ * @author YuFeng
  * @date 2022/3/20 15:13
  */
 public class MybatisPlusAutoFill extends JsqlParserSupport implements InnerInterceptor {

@@ -3,7 +3,7 @@ package com.codedreamplus.mybatis.plugins.handler;
 /**
  * 获取用户信息
  *
- * @author ShiJianlong
+ * @author YuFeng
  * @date 2022/3/20 23:07
  */
 public interface UserHandler {
