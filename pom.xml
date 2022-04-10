@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.codedream</groupId>
-    <artifactId>codedream-mybatis</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <name>codedream-mybatis</name>
-    <description>Demo project for Spring Boot</description>
+    <groupId>com.codedreamplus</groupId>
+    <artifactId>codedreamplus-mybatis</artifactId>
+    <version>1.0.0</version>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>MybatisPlus常用功能配置</description>
     <properties>
         <java.version>11</java.version>
         <maven.plugin.version>3.8.1</maven.plugin.version>
@@ -16,7 +16,7 @@
         <spring.boot.starter.web.version>2.6.4</spring.boot.starter.web.version>
         <druid.version>1.2.5</druid.version>
         <mysql.verion>8.0.22</mysql.verion>
-        <codedream.base.version>${project.version}</codedream.base.version>
+        <codedreamplus.base.version>${project.version}</codedreamplus.base.version>
     </properties>
     <dependencies>
         <dependency>
@@ -26,9 +26,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.codedream</groupId>
-            <artifactId>codedream-base</artifactId>
-            <version>${codedream.base.version}</version>
+            <groupId>com.codedreamplus</groupId>
+            <artifactId>codedreamplus-base</artifactId>
+            <version>${codedreamplus.base.version}</version>
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
